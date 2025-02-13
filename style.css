@@ -15,8 +15,8 @@ body{
 
 .layout{
 	margin: auto;
-	width: 350px;
-	height: 540px;
+	width: 310px;
+	height: 500px;
 	position: relative;
 	background: white;
 	border-radius: 20px;
@@ -26,11 +26,11 @@ body{
   
 
 .calculator{
-    height: 500px;
+    height: 480px;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(4, 70px);
-    grid-template-rows: minmax(100px, auto) repeat(5, 70px);
+    grid-template-columns: repeat(4, 65px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 65px);
 }
 
 .calculator > button{
